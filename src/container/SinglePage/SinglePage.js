@@ -14,7 +14,7 @@ import Seller from "./Seller/Seller";
 import RelateProduct from "./RelateProduct/RelateProduct";
 import History from "./History/History";
 import { instance } from "../../ultils/ultils";
-
+const style = { background: '#0092ff', padding: '8px 0' };
 export default function SinglePage(props) {
   
   const location = useLocation();
@@ -33,7 +33,7 @@ export default function SinglePage(props) {
         <PostImage>
           <Row gutter={24}>
             <Col span={6}>
-              <Row>
+              <Row style={style}>
                 <Image
                   height={150}
                   src={item1.image[1]}

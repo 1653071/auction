@@ -66,7 +66,7 @@ export default function Listing(props) {
             defaultSelectedKeys={["1"]}
             defaultOpenKeys={["sub1"]}
             mode="inline"
-            theme="dark"
+         
             onClick={filter}
             
           >

@@ -3,6 +3,7 @@ export const NavigationWrapper = styled.div`
   display: flex;
   padding-left: 50px;
   padding-right: 50px;
+  padding-bottom:10px ;
   background-color: #8d5524;
   width: 100%;
   position: sticky;

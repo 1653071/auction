@@ -27,7 +27,7 @@ export default function ListingGrid(props) {
 
   return (
     <ListingGridWrapper>
-      <Row gutter={18}>
+      <Row gutter={18} align="middle">
         {store.items.slice(offset, offset + 8)
           .filter(function (item) {
             return item.name.toLowerCase().includes(query.toLowerCase());

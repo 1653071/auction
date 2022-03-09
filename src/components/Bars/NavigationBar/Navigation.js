@@ -144,8 +144,9 @@ export default function Navigation() {
               backgroundColor: "#663300",
               fontWeight: "900",
               float: "right",
-              marginLeft: "174px",
-              marginTop: "2px",
+              marginLeft: "17px",
+              marginTop: "1px",
+              marginBottom:"1px" 
             }}
           >
             Đăng Ký

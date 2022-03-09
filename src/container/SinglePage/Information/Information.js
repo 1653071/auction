@@ -86,7 +86,7 @@ export default function Information(props) {
   return (
     <InformationWrapper>
       <Row gutter={24}>
-        <Col span={20}><Title
+        <Col span={12}><Title
         level={4}
         style={{ fontWeight: "bold", color: "#994C00", fontFamily: "Arial" }}
       >
@@ -94,7 +94,7 @@ export default function Information(props) {
       </Title></Col>
       <Col span={4}>
       <Button
-          type="primary"
+          type="danger"
           shape="circle"
           onClick={addToWatchList}
           icon={<LikeOutlined></LikeOutlined>}
@@ -104,43 +104,53 @@ export default function Information(props) {
       </Row>
       <AuctionInfo>
         <Row gutter={24} style={{ paddingBottom: "20px" }}>
-          <Col span={8}>Thời gian</Col>
+          <Col span={4}>Thời gian</Col>
           <Col span={16}>
             <DateWrapper>Từ {props.item.datecreated} đến {props.item.dateend}</DateWrapper>
           </Col>
         </Row>
-        <Row gutter={24}>
+        <Row gutter={24} style={{ paddingBottom: "20px" }}>
           {Date.parse(props.item.dateend) > Date.now() ? (
             <>
-            <Col span={8}>Còn lại</Col>
+            <Col span={4}>Còn lại</Col>
             <Col span={16}>
               <Time>{Math.floor(time / 86400000)} ngày {Math.floor((time % 86400000) / 3600000)} : {Math.floor(((time % 86400000) % 3600000) / 60000)}: {Math.floor(((time % 86400000)%60000)/1000)}</Time>
             </Col>
             </>
           ):(
-            <><Col span={8}>Còn lại</Col>
+            <><Col span={4}>Còn lại</Col>
             <Col span={16}>
             <Time>Hết hạn</Time>
           </Col></>
           )}
         </Row>
-        
-
-        <ContractorWrapper>
+        <Row gutter={24} style={{ paddingBottom: "20px" }}>
+          <Col span={4}>Giá khởi điểm</Col>
+          <Col span={16}>
+            <DateWrapper>{props.item.price}</DateWrapper>
+          </Col>
+        </Row>
+        <Row gutter={24} style={{ paddingBottom: "20px" }}>
+          <Col span={4}>Giá hiện tại</Col>
+          <Col span={16}>
+            <DateWrapper>{props.item.price}</DateWrapper>
+          </Col>
+        </Row>
+        {/* <ContractorWrapper>
           <HeadTitle>Giá khởi điểm</HeadTitle>
-          <Contractor>{props.item.price}</Contractor>
+          <Contractor></Contractor>
         </ContractorWrapper>
         <PriceWrapper>
           <HeadTitle>Giá cao nhất hiện tại</HeadTitle>
           <Price>{props.item.price}</Price>
-        </PriceWrapper>
+        </PriceWrapper> */}
       </AuctionInfo>
       <Auction>
         <form onSubmit={auctionSubmit}>
           <SelectPriceWrapper>
             <InputNumber onChange={onChangePrice} defaultValue={props.item.price} step={props.item.jump} />
           </SelectPriceWrapper>
-          <Button  className="auction" onClick={auctionClick}>
+          <Button  className="auction" onClick={auctionClick} size="large">
             Đấu giá
           </Button>
         </form>

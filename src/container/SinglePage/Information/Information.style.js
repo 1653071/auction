@@ -47,7 +47,7 @@ export const Price= styled.div`
 `;
 export const Time= styled.div`
     color: red;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
     
 `;
@@ -55,20 +55,20 @@ export const Button=styled.div`
      
 `;
 export const Auction= styled.div`
-     padding-top:100px;
-     margin-top: 30px;
+     padding-top:20px;
+    
      .auction{
          color:white;
          background-color: #94540C;
-         width: 50%;
-         
-         float: right;
+         width: 20%;
+        
+         float: left;
      }
 
 `;
 export const SelectPriceWrapper= styled.div`
     
-     width:50%; 
+     width:20%; 
      float : left;
 
      
