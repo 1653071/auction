@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/auction/static/css/main.16df6e3e.chunk.css",
-    "main.js": "/auction/static/js/main.4c377abb.chunk.js",
-    "main.js.map": "/auction/static/js/main.4c377abb.chunk.js.map",
-    "runtime-main.js": "/auction/static/js/runtime-main.5397de77.js",
-    "runtime-main.js.map": "/auction/static/js/runtime-main.5397de77.js.map",
+    "main.css": "/auction/static/css/main.e8a59a94.chunk.css",
+    "main.js": "/auction/static/js/main.53cd1800.chunk.js",
+    "main.js.map": "/auction/static/js/main.53cd1800.chunk.js.map",
+    "runtime-main.js": "/auction/static/js/runtime-main.39e4171a.js",
+    "runtime-main.js.map": "/auction/static/js/runtime-main.39e4171a.js.map",
     "static/css/2.2b8316e7.chunk.css": "/auction/static/css/2.2b8316e7.chunk.css",
-    "static/js/2.bf49f1ae.chunk.js": "/auction/static/js/2.bf49f1ae.chunk.js",
-    "static/js/2.bf49f1ae.chunk.js.map": "/auction/static/js/2.bf49f1ae.chunk.js.map",
-    "static/js/3.c5d91a14.chunk.js": "/auction/static/js/3.c5d91a14.chunk.js",
-    "static/js/3.c5d91a14.chunk.js.map": "/auction/static/js/3.c5d91a14.chunk.js.map",
+    "static/js/2.6e21ca38.chunk.js": "/auction/static/js/2.6e21ca38.chunk.js",
+    "static/js/2.6e21ca38.chunk.js.map": "/auction/static/js/2.6e21ca38.chunk.js.map",
+    "static/js/3.e0462df6.chunk.js": "/auction/static/js/3.e0462df6.chunk.js",
+    "static/js/3.e0462df6.chunk.js.map": "/auction/static/js/3.e0462df6.chunk.js.map",
     "index.html": "/auction/index.html",
     "static/css/2.2b8316e7.chunk.css.map": "/auction/static/css/2.2b8316e7.chunk.css.map",
-    "static/css/main.16df6e3e.chunk.css.map": "/auction/static/css/main.16df6e3e.chunk.css.map",
-    "static/js/2.bf49f1ae.chunk.js.LICENSE.txt": "/auction/static/js/2.bf49f1ae.chunk.js.LICENSE.txt",
+    "static/css/main.e8a59a94.chunk.css.map": "/auction/static/css/main.e8a59a94.chunk.css.map",
+    "static/js/2.6e21ca38.chunk.js.LICENSE.txt": "/auction/static/js/2.6e21ca38.chunk.js.LICENSE.txt",
     "static/media/Success.d12d9947.jpg": "/auction/static/media/Success.d12d9947.jpg",
     "static/media/auction.2e71e2fe.png": "/auction/static/media/auction.2e71e2fe.png",
     "static/media/judge-g57927c3c5_1280.8db42427.jpg": "/auction/static/media/judge-g57927c3c5_1280.8db42427.jpg",
     "static/media/logo.6ce24c58.svg": "/auction/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5397de77.js",
+    "static/js/runtime-main.39e4171a.js",
     "static/css/2.2b8316e7.chunk.css",
-    "static/js/2.bf49f1ae.chunk.js",
-    "static/css/main.16df6e3e.chunk.css",
-    "static/js/main.4c377abb.chunk.js"
+    "static/js/2.6e21ca38.chunk.js",
+    "static/css/main.e8a59a94.chunk.css",
+    "static/js/main.53cd1800.chunk.js"
   ]
 }
